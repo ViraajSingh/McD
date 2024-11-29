@@ -3,6 +3,7 @@
     text-align: center;
     justify-content: space-evenly;
     color: #370000;
+    font-size: x-large;
 }
 /* @font-face {
     font-family: mclawsui;
@@ -11,8 +12,6 @@
 
 
 
-#links{
-}
 
 a{
     text-decoration: none;
@@ -48,14 +47,29 @@ font-family: mclawsui;
     width: 50%;
     margin: 15px;
     position: absolute;
-    top: 30%;
-    left: 3%;
+    top: 10%;
+    left: 25%;
+    box-shadow: #370000 10px 10px;
 }
 
-.new{
+#new{
     display: flex;
     float: right;
-    background-color: ;
+    /* background-color: #f12d2d;
+    color: #370000; */
+    position: absolute;
+    margin: 15px;
+    top: 11%;
+    left: 80%;
+    /* text-decoration: none; */
+    background-image: linear-gradient(to right, hotpink 50%, darkviolet 50%);
+	background-size: 200%;
+	transition: 0.4s ease-out;
+
+}
+
+#new:hover{
+    background-position: right;
 }
 
 .main{
@@ -63,6 +77,32 @@ font-family: mclawsui;
 }
 
 .mail{
+    margin: 15px;
     display: flex;
     width: 25%;
+}
+
+#new:hover{
+ box-shadow: #370000 10px 10px;
+}
+
+.Email{
+    background-color: #f12d2d;
+    color: white;
+    font-size:x-large;
+    border-radius: 10px;
+}
+
+#join{
+    display: flex;
+    position: absolute;
+    top: 17%;
+    left: 20%;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.list{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
 }
