@@ -56,11 +56,10 @@ font-family: mclawsui;
     display: flex;
     float: right;
     background-color: #3a0000;
-    /* position: absolute; */
     margin: 15px;
-    top: 11%;
-    left: 80%;
-    /* text-decoration: none; */
+    position: absolute;
+    top: 15%;
+    left: 85%;
     background-image: linear-gradient(to right, #f12d2d 50%, #ff7b7b 50%);
 	background-size: 200%;
 	transition: 0.4s ease-out;
@@ -82,17 +81,18 @@ font-family: mclawsui;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: x-large;
 }
 
 #new:hover{
     background-position: right;
 }
 
-.main{
-    /* display: flex; */
-}
 
 .mail{
+    position: absolute;
+    top: 16.20%;
+    left: 60%;
     margin: 15px;
     width: 25%;
 }
@@ -111,8 +111,8 @@ font-family: mclawsui;
 #join{
     display: flex;
     position: absolute;
-    top: 17%;
-    left: 20%;
+    top: 18.3%;
+    left: 77%;
     border-radius: 10px;
     font-size: 15px;
 }
@@ -128,13 +128,89 @@ overflow-y: auto;
 
 .burger{ 
    display: flex;
-   justify-content: center;
+   justify-content: start;
    align-items: center;
    margin-bottom: 20px;
 }
 
 
 .burger2{
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 80%;
 }
+
+.text{
+    background-color: #fe9393;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.map{
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.hotzone{
+    width: 75%;
+    height: 80%;
+}
+
+.break{
+    display: flex;
+    background-color: #5e2d2d;
+    color: white;
+    align-items: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    margin: 5px;
+}
+
+.what{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.what-new{
+    margin: 5px;
+    width: 80%;
+    height: 80%;
+}
+
+#find{
+    display: flex;
+    background-image: linear-gradient(to right, #f12d2d 50%, #ff7b7b 50%);
+	background-size: 200%;
+	transition: 0.4s ease-out;
+    font-size: x-large;
+}
+
+#find:hover{
+    background-position: right;
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #5e2d2d;
+    border-radius: 10px;
+    color: #fe9393;
+    margin-top: 5px;
+}
+
+.insta{
+    height: 30%;
+    width: 30%;
+    overflow: hidden;
+}
+
+
+
